@@ -1,0 +1,22 @@
+{
+  "dataPath": "C:/Users/shik0/AppData/Local/FoundryVTT",
+  "compressStatic": true,
+  "fullscreen": false,
+  "hostname": null,
+  "language": "en.core",
+  "localHostname": null,
+  "port": 30000,
+  "protocol": null,
+  "proxyPort": null,
+  "proxySSL": false,
+  "routePrefix": null,
+  "updateChannel": "stable",
+  "upnp": true,
+  "upnpLeaseDuration": null,
+  "awsConfig": null,
+  "passwordSalt": null,
+  "sslCert": null,
+  "sslKey": null,
+  "world": "solvcretis-faerun",
+  "serviceConfig": null
+}
