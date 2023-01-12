@@ -1,0 +1,1 @@
+{"user":"8pEKuxhCYVCDuXDE","content":"canvas.lighting.placeables.forEach(value=&gt; value.update({darknessThreshold: &lt;0.1&gt;}))","type":1,"timestamp":1673516555091,"flavor":"","speaker":{"scene":null,"actor":null,"token":null,"alias":""},"whisper":[],"blind":false,"rolls":[],"sound":null,"emote":false,"flags":{},"_id":"y9fOA5KKuWbMgDwl"}
