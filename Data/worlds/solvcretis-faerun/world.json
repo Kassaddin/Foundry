@@ -8,7 +8,7 @@
     "minimum": "10",
     "verified": "10"
   },
-  "systemVersion": "2.0.3",
+  "systemVersion": "2.1.1",
   "nextSession": "2023-01-15T09:00:00.000Z",
   "packs": [
     {
@@ -189,8 +189,34 @@
       "path": "packs/background.db",
       "system": "dnd5e",
       "private": false,
-      "flags": {},
-      "package": "world"
+      "flags": {}
+    },
+    {
+      "label": "Classes Mine",
+      "type": "Item",
+      "name": "classes-mine",
+      "path": "packs/classes-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actors",
+      "type": "Actor",
+      "name": "actors",
+      "path": "packs/actors.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Monsters Mine",
+      "type": "Actor",
+      "name": "monsters-mine",
+      "path": "packs/monsters-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
     }
   ]
 }
