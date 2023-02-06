@@ -8,7 +8,7 @@
     "minimum": "10",
     "verified": "10"
   },
-  "systemVersion": "2.1.1",
+  "systemVersion": "2.1.4",
   "nextSession": "2023-01-15T09:00:00.000Z",
   "packs": [
     {
@@ -218,5 +218,6 @@
       "private": false,
       "flags": {}
     }
-  ]
+  ],
+  "safeMode": false
 }
