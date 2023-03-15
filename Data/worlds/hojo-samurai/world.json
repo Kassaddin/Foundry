@@ -1,0 +1,13 @@
+{
+  "title": "Hōjō Samurai",
+  "id": "hojo-samurai",
+  "system": "icrpgme",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "1.3.0-rc.1",
+  "background": "systems/icrpgme/assets/world-bg.png",
+  "description": "<img src=\"user/misc/Ghost%20of%20Tsusima/crest.jpg\" /><p>In 1333, Go-Daigo escaped Oki two years after his exile with the help of Nawa Nagatoshi (名和長年), raising a new Imperial army at Mount Senjō in Hōki Province, in the modern town of Kotoura, Tottori Prefecture. He defeated the forces of Sasaki Kiyotaka at the Battle of Mount Senjōsan and gained the support of many warlords in western Japan against the Hōjō.</p>"
+}
