@@ -1,0 +1,65 @@
+// Copy into a new Foundry macro. Apologies if the code is inelegant... JS is not my favourite language and this is the first Foundry macro I've ever written.
+
+// This id should match the light in the brazier room. If this macro isn't working, this line is probably where it needs to be fixed.
+let light_id = "3Baa2imeWxQBP5G6";
+
+// Find the right light object
+let light = "";
+canvas.lighting.placeables.forEach(l => { if (l.id === light_id) light = l });
+
+// Dialog to change the colour
+let d = new Dialog({
+ title: "Brazier Room Stones",
+ content: "<p style='text-align: center'>Seven coloured, spherical stones rest in indentations around this brazier. A large hourglass hanging above the flames has an inscription on its base...<br><br><i>Cast a stone into the fire:<br>Violet leads to the mountain spire<br>Orange to the castle’s peak<br>Red if lore is what you seek<br>Green to where the coffins hide<br>Indigo to the master’s bride<br>Blue to ancient magic’s womb<br>Yellow to the master’s tomb</i><br><br>Throw a stone into the fire?<br><br></p>",
+ buttons: {
+  indigo: {
+   label: "<p style='color: #ee82ee'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#ee82ee";
+      light.updateSource();
+   }
+  },
+  violet: {
+   label: "<p style='color: #4b0082'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#4b0082";
+      light.updateSource();
+   }
+  },
+  blue: {
+   label: "<p style='color: #0000ff'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#0000ff";
+      light.updateSource();
+   }
+  },
+  green: {
+   label: "<p style='color: #00ff00'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#00ff00";
+      light.updateSource();
+   }
+  },
+  yellow: {
+   label: "<p style='color: #ffff00'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#ffff00";
+      light.updateSource();
+   }
+  },
+  orange: {
+   label: "<p style='color: #ffa500'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#ffa500";
+      light.updateSource();
+   }
+  },
+  red: {
+   label: "<p style='color: #ff0000'>⬤</p>",
+   callback: () => {
+      light.data.config.color = "#ff0000";
+      light.updateSource();
+   }
+  }
+ }
+}).render(true);

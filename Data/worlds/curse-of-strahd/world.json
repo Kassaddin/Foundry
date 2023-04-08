@@ -1,0 +1,233 @@
+{
+  "title": "Curse of Strahd",
+  "id": "curse-of-strahd",
+  "system": "dnd5e",
+  "background": "worlds/curse-of-strahd/CurseofStrahd.webp",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "2.1.5",
+  "nextSession": "2023-01-15T09:00:00.000Z",
+  "packs": [
+    {
+      "label": "Races Mine",
+      "type": "Item",
+      "name": "races-mine",
+      "path": "packs/races-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Feats Mine",
+      "type": "Item",
+      "name": "feats-mine",
+      "path": "packs/feats-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Subclasses Mine",
+      "type": "Item",
+      "name": "subclasses-mine",
+      "path": "packs/subclasses-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Spells Mine",
+      "type": "Item",
+      "name": "spells-mine",
+      "path": "packs/spells-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Items Mine",
+      "type": "Item",
+      "name": "items-mine",
+      "path": "packs/items-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Backgrounds",
+      "name": "ddb-solvcretis-faerun-ddb-backgrounds",
+      "path": "packs/ddb-solvcretis-faerun-ddb-backgrounds.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Classes",
+      "name": "ddb-solvcretis-faerun-ddb-classes",
+      "path": "packs/ddb-solvcretis-faerun-ddb-classes.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Subclasses",
+      "name": "ddb-solvcretis-faerun-ddb-subclasses",
+      "path": "packs/ddb-solvcretis-faerun-ddb-subclasses.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Class Features",
+      "name": "ddb-solvcretis-faerun-ddb-class-features",
+      "path": "packs/ddb-solvcretis-faerun-ddb-class-features.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Feats",
+      "name": "ddb-solvcretis-faerun-ddb-feats",
+      "path": "packs/ddb-solvcretis-faerun-ddb-feats.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Items",
+      "name": "ddb-solvcretis-faerun-ddb-items",
+      "path": "packs/ddb-solvcretis-faerun-ddb-items.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "DDB Monsters",
+      "name": "ddb-solvcretis-faerun-ddb-monsters",
+      "path": "packs/ddb-solvcretis-faerun-ddb-monsters.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "DDB Vehicles",
+      "name": "ddb-solvcretis-faerun-ddb-vehicles",
+      "path": "packs/ddb-solvcretis-faerun-ddb-vehicles.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Races",
+      "name": "ddb-solvcretis-faerun-ddb-races",
+      "path": "packs/ddb-solvcretis-faerun-ddb-races.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Racial Traits",
+      "name": "ddb-solvcretis-faerun-ddb-racial-traits",
+      "path": "packs/ddb-solvcretis-faerun-ddb-racial-traits.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Spells",
+      "name": "ddb-solvcretis-faerun-ddb-spells",
+      "path": "packs/ddb-solvcretis-faerun-ddb-spells.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "RollTable",
+      "label": "DDB Tables",
+      "name": "ddb-solvcretis-faerun-ddb-tables",
+      "path": "packs/ddb-solvcretis-faerun-ddb-tables.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "DDB Override",
+      "name": "ddb-solvcretis-faerun-ddb-override",
+      "path": "packs/ddb-solvcretis-faerun-ddb-override.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Adventure",
+      "label": "DDB Adventures",
+      "name": "ddb-solvcretis-faerun-ddb-adventures",
+      "path": "packs/ddb-solvcretis-faerun-ddb-adventures.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "type": "Item",
+      "name": "background",
+      "path": "packs/background.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Classes Mine",
+      "type": "Item",
+      "name": "classes-mine",
+      "path": "packs/classes-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actors",
+      "type": "Actor",
+      "name": "actors",
+      "path": "packs/actors.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Monsters Mine",
+      "type": "Actor",
+      "name": "monsters-mine",
+      "path": "packs/monsters-mine.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Scenes",
+      "type": "Scene",
+      "name": "scenes",
+      "path": "packs/scenes.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {},
+      "package": "world"
+    }
+  ],
+  "safeMode": false
+}

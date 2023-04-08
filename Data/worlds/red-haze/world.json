@@ -1,0 +1,11 @@
+{
+  "title": "Red Haze",
+  "id": "red-haze",
+  "system": "custom-system-builder",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "2.2.4"
+}
