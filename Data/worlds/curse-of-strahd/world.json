@@ -225,6 +225,15 @@
       "path": "packs/scenes.db",
       "system": "dnd5e",
       "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Macros",
+      "type": "Macro",
+      "name": "macros",
+      "path": "packs/macros.db",
+      "system": "dnd5e",
+      "private": false,
       "flags": {},
       "package": "world"
     }
