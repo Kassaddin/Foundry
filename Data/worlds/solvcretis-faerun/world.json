@@ -3,12 +3,12 @@
   "id": "solvcretis-faerun",
   "system": "dnd5e",
   "background": "worlds/Anvil%20Cover.jpg",
-  "coreVersion": "10.291",
+  "coreVersion": "10.303",
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "10.303"
   },
-  "systemVersion": "2.1.5",
+  "systemVersion": "2.2.1",
   "nextSession": "2023-01-15T09:00:00.000Z",
   "packs": [
     {
@@ -225,8 +225,7 @@
       "path": "packs/scenes.db",
       "system": "dnd5e",
       "private": false,
-      "flags": {},
-      "package": "world"
+      "flags": {}
     }
   ],
   "safeMode": false
