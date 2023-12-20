@@ -3,230 +3,163 @@
   "id": "solvcretis-faerun",
   "system": "dnd5e",
   "background": "worlds/Anvil%20Cover.jpg",
-  "coreVersion": "10.303",
+  "coreVersion": "11.315",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.303"
+    "minimum": "11",
+    "verified": "11.315"
   },
-  "systemVersion": "2.2.1",
+  "systemVersion": "2.4.0",
   "nextSession": "2023-01-15T09:00:00.000Z",
   "packs": [
     {
       "label": "Races Mine",
       "type": "Item",
       "name": "races-mine",
-      "path": "packs/races-mine.db",
+      "path": "packs/races-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Feats Mine",
       "type": "Item",
       "name": "feats-mine",
-      "path": "packs/feats-mine.db",
+      "path": "packs/feats-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Subclasses Mine",
       "type": "Item",
       "name": "subclasses-mine",
-      "path": "packs/subclasses-mine.db",
+      "path": "packs/subclasses-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Spells Mine",
       "type": "Item",
       "name": "spells-mine",
-      "path": "packs/spells-mine.db",
+      "path": "packs/spells-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Items Mine",
       "type": "Item",
       "name": "items-mine",
-      "path": "packs/items-mine.db",
+      "path": "packs/items-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Backgrounds",
-      "name": "ddb-solvcretis-faerun-ddb-backgrounds",
-      "path": "packs/ddb-solvcretis-faerun-ddb-backgrounds.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Classes",
-      "name": "ddb-solvcretis-faerun-ddb-classes",
-      "path": "packs/ddb-solvcretis-faerun-ddb-classes.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Subclasses",
-      "name": "ddb-solvcretis-faerun-ddb-subclasses",
-      "path": "packs/ddb-solvcretis-faerun-ddb-subclasses.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Class Features",
-      "name": "ddb-solvcretis-faerun-ddb-class-features",
-      "path": "packs/ddb-solvcretis-faerun-ddb-class-features.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Feats",
-      "name": "ddb-solvcretis-faerun-ddb-feats",
-      "path": "packs/ddb-solvcretis-faerun-ddb-feats.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Items",
-      "name": "ddb-solvcretis-faerun-ddb-items",
-      "path": "packs/ddb-solvcretis-faerun-ddb-items.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Actor",
-      "label": "DDB Monsters",
-      "name": "ddb-solvcretis-faerun-ddb-monsters",
-      "path": "packs/ddb-solvcretis-faerun-ddb-monsters.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Actor",
-      "label": "DDB Vehicles",
-      "name": "ddb-solvcretis-faerun-ddb-vehicles",
-      "path": "packs/ddb-solvcretis-faerun-ddb-vehicles.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Races",
-      "name": "ddb-solvcretis-faerun-ddb-races",
-      "path": "packs/ddb-solvcretis-faerun-ddb-races.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Racial Traits",
-      "name": "ddb-solvcretis-faerun-ddb-racial-traits",
-      "path": "packs/ddb-solvcretis-faerun-ddb-racial-traits.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Spells",
-      "name": "ddb-solvcretis-faerun-ddb-spells",
-      "path": "packs/ddb-solvcretis-faerun-ddb-spells.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "type": "RollTable",
       "label": "DDB Tables",
       "name": "ddb-solvcretis-faerun-ddb-tables",
-      "path": "packs/ddb-solvcretis-faerun-ddb-tables.db",
+      "path": "packs/ddb-solvcretis-faerun-ddb-tables",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "DDB Override",
-      "name": "ddb-solvcretis-faerun-ddb-override",
-      "path": "packs/ddb-solvcretis-faerun-ddb-override.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Adventure",
-      "label": "DDB Adventures",
-      "name": "ddb-solvcretis-faerun-ddb-adventures",
-      "path": "packs/ddb-solvcretis-faerun-ddb-adventures.db",
-      "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Background",
       "type": "Item",
       "name": "background",
-      "path": "packs/background.db",
+      "path": "packs/background",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Classes Mine",
       "type": "Item",
       "name": "classes-mine",
-      "path": "packs/classes-mine.db",
+      "path": "packs/classes-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Actors",
       "type": "Actor",
       "name": "actors",
-      "path": "packs/actors.db",
+      "path": "packs/actors",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Monsters Mine",
       "type": "Actor",
       "name": "monsters-mine",
-      "path": "packs/monsters-mine.db",
+      "path": "packs/monsters-mine",
       "system": "dnd5e",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "label": "Scenes",
       "type": "Scene",
       "name": "scenes",
-      "path": "packs/scenes.db",
+      "path": "packs/scenes",
       "system": "dnd5e",
-      "private": false,
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Mass Edit: Presets (MAIN)",
+      "type": "JournalEntry",
+      "ownership": {
+        "GAMEMASTER": "NONE",
+        "PLAYER": "NONE",
+        "ASSISTANT": "NONE"
+      },
+      "name": "mass-edit-presets-main",
+      "path": "packs/mass-edit-presets-main",
+      "system": "dnd5e",
       "flags": {}
     }
   ],
-  "safeMode": false
+  "safeMode": false,
+  "lastPlayed": "Sun Dec 17 2023 08:14:32 GMT+0100 (Central European Standard Time)",
+  "playtime": 77858,
+  "description": "<img src=\"worlds/solvcretis-faerun/Party%20Crest.webp\" />",
+  "joinTheme": "default"
 }

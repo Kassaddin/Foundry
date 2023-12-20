@@ -1,0 +1,8 @@
+2023/12/17-08:13:29.790 2994 Recovering log #157
+2023/12/17-08:13:29.814 2994 Delete type=0 #157
+2023/12/17-08:13:29.814 2994 Delete type=3 #154
+2023/12/17-08:14:29.753 14f0 Level-0 table #164: started
+2023/12/17-08:14:29.753 14f0 Level-0 table #164: 0 bytes OK
+2023/12/17-08:14:29.760 14f0 Delete type=0 #162
+2023/12/17-08:14:29.778 14f0 Manual compaction at level-0 from '!users!2O2FZnWVJebW9xXw' @ 72057594037927935 : 1 .. '!users!9xS30cnR2cDZl60S' @ 0 : 0; will stop at (end)
+2023/12/17-08:14:29.778 14f0 Manual compaction at level-1 from '!users!2O2FZnWVJebW9xXw' @ 72057594037927935 : 1 .. '!users!9xS30cnR2cDZl60S' @ 0 : 0; will stop at (end)

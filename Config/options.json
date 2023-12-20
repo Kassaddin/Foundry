@@ -17,6 +17,11 @@
   "passwordSalt": null,
   "sslCert": null,
   "sslKey": null,
-  "world": "solvcretis-faerun",
-  "serviceConfig": null
+  "world": "eclipse-frame",
+  "serviceConfig": null,
+  "compressSocket": true,
+  "cssTheme": "foundry",
+  "deleteNEDB": false,
+  "hotReload": false,
+  "telemetry": true
 }

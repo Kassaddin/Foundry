@@ -1,7 +1,10 @@
+Backups/
+Logs/
 Data/ddb-images/
 Data/dragupload/
 Data/modules/
 Data/systems/
 Data/user/ambient
-Data/user/scenes/Ghost of Tsusima/Video
+Data/user/scenes/
 Data/worlds/curse-of-strahd/scenes/Castle Ravenloft
+Data/token-action-hud-core

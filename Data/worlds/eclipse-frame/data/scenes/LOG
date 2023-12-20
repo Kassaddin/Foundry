@@ -1,0 +1,7 @@
+2023/12/17-08:13:29.742 2998 Recovering log #266
+2023/12/17-08:13:29.753 2998 Delete type=0 #266
+2023/12/17-08:13:29.753 2998 Delete type=3 #234
+2023/12/17-08:14:29.735 14f0 Level-0 table #272: started
+2023/12/17-08:14:29.737 14f0 Level-0 table #272: 0 bytes OK
+2023/12/17-08:14:29.752 14f0 Delete type=0 #270
+2023/12/17-08:14:29.778 14f0 Manual compaction at level-0 from '!scenes!7RcC8YolbwiMB82X' @ 72057594037927935 : 1 .. '!scenes.walls!OuYGa7yrDh6cBOYL.zwVPkofYbYE763QY' @ 0 : 0; will stop at (end)

@@ -1,0 +1,12 @@
+2023/11/30-07:28:22.259 51b8 Recovering log #470
+2023/11/30-07:28:22.285 51b8 Level-0 table #472: started
+2023/11/30-07:28:22.447 51b8 Level-0 table #472: 2479231 bytes OK
+2023/11/30-07:28:22.454 51b8 Delete type=0 #470
+2023/11/30-07:28:22.454 51b8 Delete type=3 #469
+2023/11/30-07:28:36.851 4f3c Moved #472 to level-1 2479231 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2023/11/30-08:57:51.885 4f3c Compacting 1@1 + 1@2 files
+2023/11/30-08:57:51.985 4f3c Generated table #474@1: 5998 keys, 903205 bytes
+2023/11/30-08:57:51.985 4f3c Compacted 1@1 + 1@2 files => 903205 bytes
+2023/11/30-08:57:51.992 4f3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/30-08:57:51.992 4f3c Delete type=2 #468
+2023/11/30-08:57:51.993 4f3c Delete type=2 #472

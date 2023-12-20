@@ -1,0 +1,7 @@
+2023/12/16-14:16:27.516 35e4 Recovering log #73
+2023/12/16-14:16:27.521 35e4 Delete type=0 #73
+2023/12/16-14:16:27.521 35e4 Delete type=3 #72
+2023/12/16-16:50:09.370 49f0 Level-0 table #77: started
+2023/12/16-16:50:09.370 49f0 Level-0 table #77: 0 bytes OK
+2023/12/16-16:50:09.372 49f0 Delete type=0 #75
+2023/12/16-16:50:09.375 49f0 Manual compaction at level-0 from '!journal!MassEditMetaData' @ 72057594037927935 : 1 .. '!journal!MassEditMetaData' @ 0 : 0; will stop at (end)
